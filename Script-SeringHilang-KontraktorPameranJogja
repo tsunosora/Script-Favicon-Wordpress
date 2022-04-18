@@ -1,0 +1,38 @@
+<!-- Script Meta Microsoft Ads -->
+
+<script>(function(w,d,t,r,u){var f,n,i;w[u]=w[u]||[],f=function(){var o={ti:"134599021"};o.q=w[u],w[u]=new UET(o),w[u].push("pageLoad")},n=d.createElement(t),n.src=r,n.async=1,n.onload=n.onreadystatechange=function(){var s=this.readyState;s&&s!=="loaded"&&s!=="complete"||(f(),n.onload=n.onreadystatechange=null)},i=d.getElementsByTagName(t)[0],i.parentNode.insertBefore(n,i)})(window,document,"script","//bat.bing.com/bat.js","uetq");</script>
+
+<!-- End Script Meta Microsoft Ads -->
+
+<!-- Script Favicon Kontraktor Pameran Jogja -->
+<script>
+var darkModeMediaQuery = window.matchMedia('(prefers-color-scheme: dark)');
+handleDarkmode(darkModeMediaQuery);
+function handleDarkmode(e){
+    var link = document.createElement('link');
+    var darkModeOn = e.matches; // true if dark mode is enabled
+    // replace icons with dark/light themes as appropriate
+    if(darkModeOn){    
+        var color = 'white';
+    }else{
+        var color = 'red';
+    }
+    
+    var link = document.createElement('link');
+    link.rel = 'icon';
+    link.href = '/wp-content/uploads/2021/09/logo-fav-kontraktorpameranjogja-color' + color + '.svg';
+    document.getElementsByTagName('head')[0].appendChild(link);
+    var link = document.createElement('link');
+    link.rel = 'icon';
+    link.href = '/wp-content/uploads/2021/09/logo-fav-kontraktorpameranjogja-color' + color + '.svg';
+    document.getElementsByTagName('head')[0].appendChild(link);
+    var link = document.createElement('link');
+    link.rel = 'apple-touch-icon';
+    link.href = '/wp-content/uploads/2021/09/logo-fav-kontraktorpameranjogja-color' + color + '.svg';
+    document.getElementsByTagName('head')[0].appendChild(link);
+    
+}
+darkModeMediaQuery.addListener(handleDarkmode);
+</script>
+
+<!-- End Favicon Kontraktor Pameran Jogja -->
